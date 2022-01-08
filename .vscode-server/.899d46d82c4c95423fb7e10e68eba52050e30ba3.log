@@ -7,95 +7,52 @@
 * as described in the license https://aka.ms/vscode-remote/license
 *
 
-Extension host agent listening on 36285
+Extension host agent listening on 44907
 
-[03:18:43] Extension host agent started.
-[03:18:43] [127.0.0.1][580ad543][ManagementConnection] New connection established.
-[03:18:43] [127.0.0.1][7484c230][ExtensionHostConnection] New connection established.
-[03:18:44] [127.0.0.1][7484c230][ExtensionHostConnection] <7296> Launched Extension Host Process.
-[03:18:54] [127.0.0.1][580ad543][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[03:18:54] [127.0.0.1][7484c230][ExtensionHostConnection] <7296> Extension Host Process exited with code: 0, signal: null.
+[16:15:46] Extension host agent started.
+[16:15:47] [127.0.0.1][2a481171][ManagementConnection] New connection established.
+[16:15:48] [127.0.0.1][485bef73][ExtensionHostConnection] New connection established.
+[16:15:48] [127.0.0.1][485bef73][ExtensionHostConnection] <22380> Launched Extension Host Process.
+[16:16:04] [127.0.0.1][2a481171][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:16:04] [127.0.0.1][485bef73][ExtensionHostConnection] <22380> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
-[03:18:54] Last EH closed, waiting before shutting down
+[16:16:04] Last EH closed, waiting before shutting down
 Got delay-shutdown request while in shutdown timeout, delaying
-[03:18:59] Got delay-shutdown request while in shutdown timeout, delaying
+[16:16:11] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[03:18:59] Cancelling previous shutdown timeout
-[03:19:00] [127.0.0.1][0d980364][ManagementConnection] New connection established.
-[03:19:00] [127.0.0.1][1448519c][ExtensionHostConnection] New connection established.
-[03:19:00] [127.0.0.1][1448519c][ExtensionHostConnection] <7466> Launched Extension Host Process.
+[16:16:11] Cancelling previous shutdown timeout
+[16:16:12] [127.0.0.1][ea4c6418][ManagementConnection] New connection established.
+[16:16:12] [127.0.0.1][202ef75d][ExtensionHostConnection] New connection established.
+[16:16:12] [127.0.0.1][202ef75d][ExtensionHostConnection] <22544> Launched Extension Host Process.
+rejected promise not handled within 1 second: Error: Could not find pty with id "3"
+stack trace: Error: Could not find pty with id "3",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "3",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
 New EH opened, aborting shutdown
-[03:23:59] New EH opened, aborting shutdown
-[06:56:49] [127.0.0.1][0d980364][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[06:56:49] [127.0.0.1][1448519c][ExtensionHostConnection] <7466> Extension Host Process exited with code: 0, signal: null.
+[16:21:11] New EH opened, aborting shutdown
+[18:25:49] [127.0.0.1][ea4c6418][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:25:49] [127.0.0.1][202ef75d][ExtensionHostConnection] <22544> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
-[06:56:49] Last EH closed, waiting before shutting down
+[18:25:49] Last EH closed, waiting before shutting down
 Got delay-shutdown request while in shutdown timeout, delaying
-[06:57:02] Got delay-shutdown request while in shutdown timeout, delaying
+[18:26:08] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[06:57:02] Cancelling previous shutdown timeout
-[06:57:02] [127.0.0.1][a4a5be0b][ManagementConnection] New connection established.
-[06:57:02] [127.0.0.1][aed81309][ExtensionHostConnection] New connection established.
-[06:57:02] [127.0.0.1][aed81309][ExtensionHostConnection] <27879> Launched Extension Host Process.
-rejected promise not handled within 1 second: Error: Could not find pty with id "13"
-stack trace: Error: Could not find pty with id "13",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateIcon (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1651),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-[Error: Could not find pty with id "13",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateIcon (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1651),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
-rejected promise not handled within 1 second: Error: Could not find pty with id "13"
-stack trace: Error: Could not find pty with id "13",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-[Error: Could not find pty with id "13",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
-[06:57:33] [127.0.0.1][a4a5be0b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[06:57:33] [127.0.0.1][aed81309][ExtensionHostConnection] <27879> Extension Host Process exited with code: 0, signal: null.
+[18:26:08] Cancelling previous shutdown timeout
+[18:26:09] [127.0.0.1][8f0af95a][ManagementConnection] New connection established.
+[18:26:09] [127.0.0.1][6c1847df][ExtensionHostConnection] New connection established.
+[18:26:09] [127.0.0.1][6c1847df][ExtensionHostConnection] <25841> Launched Extension Host Process.
+[18:27:39] [127.0.0.1][8f0af95a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:27:39] [127.0.0.1][6c1847df][ExtensionHostConnection] <25841> Extension Host Process exited with code: 0, signal: null.
 Cancelling previous shutdown timeout
-[06:57:33] Cancelling previous shutdown timeout
+[18:27:39] Cancelling previous shutdown timeout
 Last EH closed, waiting before shutting down
-[06:57:33] Last EH closed, waiting before shutting down
+[18:27:39] Last EH closed, waiting before shutting down
 Got delay-shutdown request while in shutdown timeout, delaying
-[06:57:37] Got delay-shutdown request while in shutdown timeout, delaying
+[18:27:44] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[06:57:37] Cancelling previous shutdown timeout
-[06:57:37] [127.0.0.1][a0cc58aa][ManagementConnection] New connection established.
-[06:57:37] [127.0.0.1][f7867b19][ExtensionHostConnection] New connection established.
-[06:57:37] [127.0.0.1][f7867b19][ExtensionHostConnection] <28070> Launched Extension Host Process.
-[IPC Library: Pty Host]  INFO Persistent process "14": Replaying 1015 chars and 1 size events
-[06:58:04] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /root)
-[06:58:04] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
-[node.js fs] readdir with filetypes failed with error:  [Error: ENOENT: no such file or directory, scandir '/root/server/myserver/.git'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'scandir',
-  path: '/root/server/myserver/.git'
-}
-[06:58:55] [127.0.0.1][a0cc58aa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[06:58:56] [127.0.0.1][f7867b19][ExtensionHostConnection] <28070> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[06:58:56] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[06:58:56] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[06:58:59] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[06:58:59] Cancelling previous shutdown timeout
-[06:59:00] [127.0.0.1][317b742d][ManagementConnection] New connection established.
-[06:59:00] [127.0.0.1][b37e3378][ExtensionHostConnection] New connection established.
-[06:59:00] [127.0.0.1][b37e3378][ExtensionHostConnection] <28633> Launched Extension Host Process.
-[07:00:15] [127.0.0.1][317b742d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[07:00:15] [127.0.0.1][b37e3378][ExtensionHostConnection] <28633> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[07:00:15] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[07:00:15] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[07:00:19] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[07:00:19] Cancelling previous shutdown timeout
-[07:00:19] [127.0.0.1][0dea5744][ManagementConnection] New connection established.
-[07:00:19] [127.0.0.1][c40b0d1c][ExtensionHostConnection] New connection established.
-[07:00:19] [127.0.0.1][c40b0d1c][ExtensionHostConnection] <29006> Launched Extension Host Process.
-[IPC Library: Pty Host]  INFO Persistent process "24": Replaying 1132 chars and 1 size events
-rejected promise not handled within 1 second: Error: Could not find pty with id "28"
-stack trace: Error: Could not find pty with id "28",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateIcon (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1651),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-[Error: Could not find pty with id "28",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateIcon (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1651),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+[18:27:44] Cancelling previous shutdown timeout
+[18:27:44] [127.0.0.1][1cb44e5c][ManagementConnection] New connection established.
+[18:27:44] [127.0.0.1][46a85bb0][ExtensionHostConnection] New connection established.
+[18:27:44] [127.0.0.1][46a85bb0][ExtensionHostConnection] <26004> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Persistent process "14": Replaying 5751 chars and 1 size events
 New EH opened, aborting shutdown
-[07:05:19] New EH opened, aborting shutdown
-[07:15:14] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /root)
-[07:15:14] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[18:32:44] New EH opened, aborting shutdown

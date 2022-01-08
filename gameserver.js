@@ -1,10 +1,11 @@
 const express = require('express')
+const { use } = require('express/lib/application')
 const http = require('http')
 const app = express()
 const server = http.createServer(app)
 const io = require('socket.io')(server)
 const randomstring = require('randomstring')
-let rcnt=[],p1name=[],p2name=[];
+let rcnt=[],p1name=[],p2name=[],readycnt=[];
 
 // 소켓 연결 코드
 io.sockets.on('connection', (socket) => {
@@ -14,6 +15,7 @@ io.sockets.on('connection', (socket) => {
     const roomData = JSON.parse(data)
     const username = roomData.username
     const roomnumber = roomData.roomnumber
+    if(rcnt[roomnumber]!=undefined&&rcnt[roomnumber]==2)return;
     socket.join(`${roomnumber}`)
     console.log(`[Username : ${username}] entered [room number : ${roomnumber}]`)
     if(rcnt[roomnumber]==undefined||rcnt[roomnumber]==0){
@@ -35,6 +37,54 @@ io.sockets.on('connection', (socket) => {
     }
   })
 
+  socket.on('ready',(data)=>{
+    const roomData = JSON.parse(data)
+    const username = roomData.username
+    const roomnumber = roomData.roomnumber
+    console.log(`[Username : ${username}] is ready! [room number : ${roomnumber}]`)
+    if(readycnt[roomnumber]==undefined||readycnt[roomnumber]==0){
+        readycnt[roomnumber]=1;
+    }
+    else{
+        readycnt[roomnumber]++;
+    }
+    if(readycnt[roomnumber]>1){
+        readycnt[roomnumber]=0;
+        console.log(`all ready`);
+        const msg = {
+            username: p1name[roomnumber],
+            content: p2name[roomnumber],
+            move : "m59"
+        }
+        console.log(`${p1name[roomnumber]} 's turn, ${p2name[roomnumber]} : wait`);
+        io.to(`${roomnumber}`).emit('newturn',JSON.stringify(msg));
+    }
+  })
+
+  socket.on('turnend',(data)=>{
+    const roomData = JSON.parse(data)
+    const username = roomData.username
+    const roomnumber = roomData.roomnumber
+    const opponent=roomData.content
+    const mymove = roomData.move
+    console.log(`[Username : ${username}] 's turn end, ${opponent}'s turn start`)
+    console.log(`move : ${mymove}`)
+    const msg = {
+      username: opponent,
+      content: username,
+      move : mymove
+    }
+    if((mymove[0]=='m')&&(mymove[2]=='1')){
+      const endmsg={
+        username:username,
+        content:opponent
+      }
+      console.log(`${username} : win, ${opponent} : lose`)
+      io.to(`${roomnumber}`).emit(`gameover`,JSON.stringify(endmsg));
+    }
+    else io.to(`${roomnumber}`).emit('newturn',JSON.stringify(msg));
+  })
+
   socket.on('left', (data) => {
     const roomData = JSON.parse(data)
     const username = roomData.username
@@ -48,6 +98,7 @@ io.sockets.on('connection', (socket) => {
       content : `${username} left the room`  
     }
     rcnt[roomnumber]--;
+    readycnt[roomnumber]--;
     io.to(`${roomnumber}`).emit('update', JSON.stringify(leftData))
   })
 

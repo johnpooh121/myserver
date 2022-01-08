@@ -62,3 +62,8 @@
 [2022-01-08 07:15:16.124] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/myserver-1/gameserver.js' is in submodule 'myserver-1'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-01-08 07:15:16.124] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/myserver-1/gameserver.js' is in submodule 'myserver-1'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-01-08 07:15:16.124] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/root/myserver-1/gameserver.js' is in submodule 'myserver-1'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-01-08 07:20:59.432] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2022-01-08 07:20:59.450] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-node'
+[2022-01-08 14:35:07.024] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-01-08 14:35:07.026] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-01-08 14:35:07.073] [exthost] [info] Extension host with pid 29006 exiting with code 0

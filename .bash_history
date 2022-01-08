@@ -121,3 +121,29 @@ node testserver1.js
 node chat.js 
 npm install google-auth-library --save
 node gameserver.js 
+ps
+git config --global user.name johnpooh121
+git config --global user.email johnpooh121@gmail.com
+git remote add origin https://github.com/johnpooh121/myserver.git
+cd myserver
+git remote add origin https://github.com/johnpooh121/myserver.git
+git init
+git add README.md
+git add gameserver.js
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/johnpooh121/myserver.git
+git push -u origin main
+ls
+cd myserver
+cd myserver-1
+cd ..
+ps
+node gameserver.js 
+node chat.js
+ps
+node gameserver.js 
+node gam
+node gameserver.js 
+node gam
+node gameserver.js 
