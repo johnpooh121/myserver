@@ -1,0 +1,18 @@
+[2022-01-07 16:35:31.902] [exthost] [info] Extension host with pid 14270 started
+[2022-01-07 16:35:31.905] [exthost] [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock'
+[2022-01-07 16:35:31.906] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-01-07 16:35:31.909] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock': The lock does not look stale, elapsed: 233 ms, giving up.
+[2022-01-07 16:35:31.916] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9-1/vscode.lock': Lock acquired.
+[2022-01-07 16:35:34.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-07 16:35:34.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-07 16:35:34.344] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-07 16:35:34.368] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-01-07 16:35:41.094] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-01-07 16:35:41.213] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-07 16:35:44.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-07 16:35:44.405] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-07 16:35:44.415] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-07 16:36:01.332] [exthost] [info] Eager extensions activated
+[2022-01-07 16:49:05.816] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-01-07 16:49:05.817] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-01-07 16:49:05.847] [exthost] [info] Extension host with pid 14270 exiting with code 0

@@ -1,0 +1,107 @@
+[Error - 1:16:08 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:10076) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[Error - 1:16:10 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[Error - 1:16:18 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[Error - 1:53:57 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[Error - 1:54:01 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[Error - 1:54:01 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+[Error - 1:54:15 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+[Error - 1:54:18 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+[Error - 1:54:24 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+[Error - 1:54:28 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+[Error - 1:55:01 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+[Error - 1:56:34 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+[Error - 1:56:34 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
+[Error - 1:56:37 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+[Error - 1:56:37 PM] Failed to load jshint library
+(node:10076) UnhandledPromiseRejectionWarning: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then reload.
+    at Linter.<anonymous> (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:336:23)
+    at Generator.throw (<anonymous>)
+    at rejected (/root/.vscode-server/extensions/dbaeumer.jshint-0.11.0/jshint-server/out/server.js:9:65)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:10076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
