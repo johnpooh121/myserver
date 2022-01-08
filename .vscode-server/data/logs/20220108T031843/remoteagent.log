@@ -59,3 +59,5 @@
 [2022-01-08 07:00:19.486] [remoteagent] [info] [127.0.0.1][c40b0d1c][ExtensionHostConnection] New connection established.
 [2022-01-08 07:00:19.494] [remoteagent] [info] [127.0.0.1][c40b0d1c][ExtensionHostConnection] <29006> Launched Extension Host Process.
 [2022-01-08 07:05:19.349] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-01-08 07:15:14.417] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /root)
+[2022-01-08 07:15:14.417] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
