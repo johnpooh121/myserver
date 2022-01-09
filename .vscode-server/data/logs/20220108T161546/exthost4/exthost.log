@@ -10,3 +10,6 @@
 [2022-01-08 18:27:49.485] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 [2022-01-08 18:27:49.496] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
 [2022-01-08 18:27:49.531] [exthost] [info] Eager extensions activated
+[2022-01-08 19:34:25.303] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-01-08 19:34:25.305] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-01-08 19:34:25.352] [exthost] [info] Extension host with pid 26004 exiting with code 0

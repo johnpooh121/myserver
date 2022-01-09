@@ -7,52 +7,12 @@
 * as described in the license https://aka.ms/vscode-remote/license
 *
 
-Extension host agent listening on 44907
+Extension host agent listening on 36219
 
-[16:15:46] Extension host agent started.
-[16:15:47] [127.0.0.1][2a481171][ManagementConnection] New connection established.
-[16:15:48] [127.0.0.1][485bef73][ExtensionHostConnection] New connection established.
-[16:15:48] [127.0.0.1][485bef73][ExtensionHostConnection] <22380> Launched Extension Host Process.
-[16:16:04] [127.0.0.1][2a481171][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[16:16:04] [127.0.0.1][485bef73][ExtensionHostConnection] <22380> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[16:16:04] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[16:16:11] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[16:16:11] Cancelling previous shutdown timeout
-[16:16:12] [127.0.0.1][ea4c6418][ManagementConnection] New connection established.
-[16:16:12] [127.0.0.1][202ef75d][ExtensionHostConnection] New connection established.
-[16:16:12] [127.0.0.1][202ef75d][ExtensionHostConnection] <22544> Launched Extension Host Process.
-rejected promise not handled within 1 second: Error: Could not find pty with id "3"
-stack trace: Error: Could not find pty with id "3",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-[Error: Could not find pty with id "3",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
-New EH opened, aborting shutdown
-[16:21:11] New EH opened, aborting shutdown
-[18:25:49] [127.0.0.1][ea4c6418][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[18:25:49] [127.0.0.1][202ef75d][ExtensionHostConnection] <22544> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[18:25:49] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[18:26:08] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[18:26:08] Cancelling previous shutdown timeout
-[18:26:09] [127.0.0.1][8f0af95a][ManagementConnection] New connection established.
-[18:26:09] [127.0.0.1][6c1847df][ExtensionHostConnection] New connection established.
-[18:26:09] [127.0.0.1][6c1847df][ExtensionHostConnection] <25841> Launched Extension Host Process.
-[18:27:39] [127.0.0.1][8f0af95a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[18:27:39] [127.0.0.1][6c1847df][ExtensionHostConnection] <25841> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[18:27:39] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[18:27:39] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[18:27:44] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[18:27:44] Cancelling previous shutdown timeout
-[18:27:44] [127.0.0.1][1cb44e5c][ManagementConnection] New connection established.
-[18:27:44] [127.0.0.1][46a85bb0][ExtensionHostConnection] New connection established.
-[18:27:44] [127.0.0.1][46a85bb0][ExtensionHostConnection] <26004> Launched Extension Host Process.
-[IPC Library: Pty Host]  INFO Persistent process "14": Replaying 5751 chars and 1 size events
-New EH opened, aborting shutdown
-[18:32:44] New EH opened, aborting shutdown
+[05:08:49] Extension host agent started.
+[05:08:49] [127.0.0.1][b8e61acf][ManagementConnection] New connection established.
+[05:08:49] [127.0.0.1][288e66e4][ExtensionHostConnection] New connection established.
+[05:08:50] [127.0.0.1][288e66e4][ExtensionHostConnection] <4331> Launched Extension Host Process.
+rejected promise not handled within 1 second: Error: Could not find pty with id "4"
+stack trace: Error: Could not find pty with id "4",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "4",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]

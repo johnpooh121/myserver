@@ -1,0 +1,15 @@
+[2022-01-08 19:35:16.144] [exthost] [info] Extension host with pid 3048 started
+[2022-01-08 19:35:16.166] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock': Lock acquired.
+[2022-01-08 19:35:16.962] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-08 19:35:17.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-08 19:35:17.046] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-08 19:35:17.054] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-01-08 19:35:27.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-08 19:35:27.091] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-08 19:35:27.099] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-08 19:35:27.364] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-01-08 19:35:27.438] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-08 19:35:28.754] [exthost] [info] Eager extensions activated
+[2022-01-08 19:38:40.674] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-01-08 19:38:40.675] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-01-08 19:38:40.709] [exthost] [info] Extension host with pid 3048 exiting with code 0
