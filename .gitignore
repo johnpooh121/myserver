@@ -1,2 +1,11 @@
-/chat.js
-!gameserver.js
+/.cache
+/.config
+/.gnupg
+/.local
+/.npm
+/.nvm
+/.ssh
+/.vscode
+/.vscode-server
+/gittest
+/node_modules
