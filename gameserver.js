@@ -5,16 +5,28 @@ const app = express()
 const server = http.createServer(app)
 const io = require('socket.io')(server)
 const randomstring = require('randomstring')
-let rcnt=[],p1name=[],p2name=[],readycnt=[];
+let rcnt=[],p1name=[],p2name=[],readycnt=[],pname_bysid=[],isroomover=[],isroomoccupied=[]
 
 // 소켓 연결 코드
 io.sockets.on('connection', (socket) => {
   console.log(`Socket connected : ${socket.id}`)
-
+  let myroomnumber;
   socket.on('enter', (data) => {
     const roomData = JSON.parse(data)
     const username = roomData.username
     const roomnumber = roomData.roomnumber
+    myroomnumber = roomnumber
+    pname_bysid[socket.id]=username
+
+    if(isroomoccupied[roomnumber]==true){
+      const msg1 = {
+        username : username
+      }
+      io.emit('refuse',JSON.stringify(msg1))
+      console.log(`refuse ${username}`)
+      return;
+    }
+    
     if(rcnt[roomnumber]!=undefined&&rcnt[roomnumber]==2)return;
     socket.join(`${roomnumber}`)
     console.log(`[Username : ${username}] entered [room number : ${roomnumber}]`)
@@ -28,12 +40,15 @@ io.sockets.on('connection', (socket) => {
     }
     if(rcnt[roomnumber]>1){
         console.log(`room full!`);
+        isroomoccupied[roomnumber]=true;
         const msg = {
             username: p1name[roomnumber],
             content: p2name[roomnumber]
         }
         console.log(`${p1name[roomnumber]} vs ${p2name[roomnumber]}`);
+        readycnt[roomnumber]=0;
         io.to(`${roomnumber}`).emit('roomfound',JSON.stringify(msg));
+        
     }
   })
 
@@ -81,25 +96,26 @@ io.sockets.on('connection', (socket) => {
       }
       console.log(`${username} : win, ${opponent} : lose`)
       io.to(`${roomnumber}`).emit(`gameover`,JSON.stringify(endmsg));
+      isroomover[myroomnumber]=true;
     }
     else io.to(`${roomnumber}`).emit('newturn',JSON.stringify(msg));
   })
 
-  socket.on('left', (data) => {
+  socket.on('waive',(data) => {
     const roomData = JSON.parse(data)
     const username = roomData.username
     const roomnumber = roomData.roomnumber
-
+    const opponent = roomData.content
+    const det = roomData.detail
     socket.leave(`${roomnumber}`)
-    console.log(`[Username : ${username}] left [room number : ${roomnumber}]`)
-
-    const leftData = {
-      type : "LEFT",
-      content : `${username} left the room`  
+    console.log(`Username : ${username} left room ${roomnumber} , ${opponent} wins`)
+    const endmsg={
+      username:opponent,
+      content:username,
+      detail:det
     }
-    rcnt[roomnumber]--;
-    readycnt[roomnumber]--;
-    io.to(`${roomnumber}`).emit('update', JSON.stringify(leftData))
+    isroomover[myroomnumber]=true;
+    io.to(`${roomnumber}`).emit(`gameover`,JSON.stringify(endmsg));
   })
 
   socket.on('newMessage', (data) => {
@@ -110,6 +126,30 @@ io.sockets.on('connection', (socket) => {
 
   socket.on('disconnect', () => {
     console.log(`Socket disconnected : ${socket.id}`)
+    if(isroomoccupied[myroomnumber]===true)return;
+    socket.leave(`${myroomnumber}`)
+    rcnt[myroomnumber]--;
+    if(isroomover[myroomnumber])return;
+    isroomover[myroomnumber]=true
+    const endmsg={
+      detail:'disconnect'
+    }
+    io.to(`${myroomnumber}`).emit(`gameover`,JSON.stringify(endmsg));
+    let winner,loser
+    if(pname_bysid[socket.id]==p1name[myroomnumber]){
+      winner=p2name[myroomnumber]
+      loser = p1name[myroomnumber]
+    }
+    else{
+      winner=p1name[myroomnumber]
+      loser = p2name[myroomnumber]
+    }
+    console.log(`unexpected disconnection : ${winner} wins, ${loser} loses`)
+    // TODO
+    if(rcnt[myroomnumber]<=0){
+      rcnt[myroomnumber]=0;
+      isroomoccupied[myroomnumber]=false;
+    }
   })
 })
 
