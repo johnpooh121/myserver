@@ -1,0 +1,383 @@
+Validating found git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /root
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 0f49c40f821d5b53977475b013a11a322ea2419e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 0f49c40f821d5b53977475b013a11a322ea2419e
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --oneline --cherry main...main@{upstream} --
+> git pull --tags origin main
+From https://github.com/johnpooh121/myserver
+ * branch            main       -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 0f49c40f821d5b53977475b013a11a322ea2419e
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git rev-list --count a8ef7709b71d5bd7685e0490db2f1a932441dbcb.. -- /root/.gitignore
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /root/.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 2e0a90de69243b06812ee22d5386a171a89eab9b
+> git show --textconv :.gitignore
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 2e0a90de69243b06812ee22d5386a171a89eab9b
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 2e0a90de69243b06812ee22d5386a171a89eab9b
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- /root/.bash_history /root/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.root.899d46d82c4c95423fb7e10e68eba52050e30ba3 /root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock /root/.vscode-server/data/logs/20220109T050849/exthost1/exthost.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/2-Git.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/3-ESLint.log /root/.vscode-server/data/logs/20220109T050849/remoteagent.log /root/.vscode-server/data/CachedExtensionVSIXs/donjayamanne.githistory-0.6.19 /root/.vscode-server/data/CachedExtensionVSIXs/github.vscode-pull-request-github-0.34.3 /root/.vscode-server/data/CachedExtensionVSIXs/mhutchie.git-graph-1.30.0 /root/.vscode-server/data/User/globalStorage/mhutchie.git-graph/life-cycle.json /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/4-GitHub Pull Request.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/5-Git Graph.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/6-Git History.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/7-JSON Language Server.log /root/.vscode-server/data/logs/20220109T050849/exthost2/exthost.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/1-GitHub Pull Request.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/2-Git History.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/3-Git Graph.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/4-Git.log /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.grenrc.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.storybook/addons.ts /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.storybook/config.ts /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.storybook/main.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.vsixmanifest /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/CHANGELOG.md /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/LICENSE.txt /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/README.md /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/browser/bundle.css /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/browser/bundle.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/browser/src/index.ejs /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/src/extension.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/gitHistory.code-workspace /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/githistoryvscode_settings.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/images/icon-dark.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/images/icon-light.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/images/icon.png /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/jest.config.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/jest.extension.config.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/package.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Document_16x.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Document_16x_inverse.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/FolderOpen_16x.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/FolderOpen_16x_inverse.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Folder_16x.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Folder_16x_inverse.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/vs_minimal_icons.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-added.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-conflict.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-copied.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-deleted.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-ignored.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-modified.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-renamed.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/emoji.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-added.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-conflict.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-copied.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-deleted.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-ignored.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-modified.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-renamed.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/misc/dialog-info.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/misc/dialog-warning.svg /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/.vsixmanifest /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/CHANGELOG.md /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/LICENSE.txt /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/README.md /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/ThirdPartyNotices.txt /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/browser/extension.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/browser/test/index.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/browser/test/runTests.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/extension.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/webview-create-pr-view.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/webview-open-pr-view.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/webview-pr-description.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/package.json /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/github_logo.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/confused.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/eyes.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/heart.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/hooray.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/laugh.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/rocket.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/thumbs_down.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/thumbs_up.png /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/.vsixmanifest /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/CHANGELOG.md /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/LICENSE /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/README.md /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/licenses/LICENSE_MICROSOFT /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/licenses/LICENSE_OCTICONS /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/media/out.min.css /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/media/out.min.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/LICENSE /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/dbcs-codec.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/dbcs-data.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/index.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/internal.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/sbcs-codec.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/sbcs-data-generated.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/sbcs-data.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/big5-added.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/cp936.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/cp949.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/cp950.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/eucjp.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/gbk-added.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/shiftjis.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/utf16.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/utf32.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/utf7.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/bom-handling.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/extend-node.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/index.d.ts /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/index.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/streams.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/package.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/LICENSE /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/dangerous.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/package.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/safer.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/tests.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpass-empty.sh /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpass.sh /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpassMain.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpassManager.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/avatarManager.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/commands.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/config.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/dataSource.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/diffDocProvider.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/extension.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/extensionState.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/gitGraphView.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/data/life-cycle.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/data/lock.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/startup.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/uninstall.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/utils.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/logger.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/repoFileWatcher.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/repoManager.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/statusBarItem.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/types.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils/bufferedQueue.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils/disposable.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils/event.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/package.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/cmd-icon-dark.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/cmd-icon-light.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/icon.png /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/webview-icon-dark.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/webview-icon-light.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/webview-icon.svg
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 2e0a90de69243b06812ee22d5386a171a89eab9b
+> git show --textconv :.gitignore
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/.gitignore
+> git cat-file -s 2e0a90de69243b06812ee22d5386a171a89eab9b
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git add -A -- /root/.bash_history /root/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.root.899d46d82c4c95423fb7e10e68eba52050e30ba3 /root/.vscode-server/data/User/workspaceStorage/4f066dd390e5cb3da36edb2c3f5550e9/vscode.lock /root/.vscode-server/data/logs/20220109T050849/exthost1/exthost.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/2-Git.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/3-ESLint.log /root/.vscode-server/data/logs/20220109T050849/remoteagent.log /root/.vscode-server/data/CachedExtensionVSIXs/donjayamanne.githistory-0.6.19 /root/.vscode-server/data/CachedExtensionVSIXs/github.vscode-pull-request-github-0.34.3 /root/.vscode-server/data/CachedExtensionVSIXs/mhutchie.git-graph-1.30.0 /root/.vscode-server/data/User/globalStorage/mhutchie.git-graph/life-cycle.json /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/4-GitHub Pull Request.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/5-Git Graph.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/6-Git History.log /root/.vscode-server/data/logs/20220109T050849/exthost1/output_logging_20220109T050854/7-JSON Language Server.log /root/.vscode-server/data/logs/20220109T050849/exthost2/exthost.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/1-GitHub Pull Request.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/2-Git History.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/3-Git Graph.log /root/.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/4-Git.log /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.grenrc.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.storybook/addons.ts /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.storybook/config.ts /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.storybook/main.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/.vsixmanifest /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/CHANGELOG.md /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/LICENSE.txt /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/README.md /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/browser/bundle.css /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/browser/bundle.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/browser/src/index.ejs /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/dist/src/extension.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/gitHistory.code-workspace /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/githistoryvscode_settings.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/images/icon-dark.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/images/icon-light.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/images/icon.png /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/jest.config.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/jest.extension.config.js /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/package.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Document_16x.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Document_16x_inverse.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/FolderOpen_16x.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/FolderOpen_16x_inverse.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Folder_16x.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/images/Folder_16x_inverse.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/fileicons/vs_minimal_icons.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-added.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-conflict.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-copied.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-deleted.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-ignored.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-modified.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/dark/status-renamed.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/emoji.json /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-added.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-conflict.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-copied.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-deleted.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-ignored.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-modified.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/light/status-renamed.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/misc/dialog-info.svg /root/.vscode-server/extensions/donjayamanne.githistory-0.6.19/resources/icons/misc/dialog-warning.svg /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/.vsixmanifest /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/CHANGELOG.md /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/LICENSE.txt /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/README.md /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/ThirdPartyNotices.txt /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/browser/extension.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/browser/test/index.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/browser/test/runTests.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/extension.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/webview-create-pr-view.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/webview-open-pr-view.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/dist/webview-pr-description.js /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/package.json /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/github_logo.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/confused.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/eyes.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/heart.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/hooray.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/laugh.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/rocket.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/thumbs_down.png /root/.vscode-server/extensions/github.vscode-pull-request-github-0.34.3/resources/icons/reactions/thumbs_up.png /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/.vsixmanifest /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/CHANGELOG.md /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/LICENSE /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/README.md /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/licenses/LICENSE_MICROSOFT /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/licenses/LICENSE_OCTICONS /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/media/out.min.css /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/media/out.min.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/LICENSE /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/dbcs-codec.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/dbcs-data.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/index.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/internal.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/sbcs-codec.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/sbcs-data-generated.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/sbcs-data.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/big5-added.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/cp936.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/cp949.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/cp950.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/eucjp.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/gbk-added.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/tables/shiftjis.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/utf16.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/utf32.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/encodings/utf7.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/bom-handling.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/extend-node.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/index.d.ts /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/index.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/lib/streams.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/iconv-lite/package.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/LICENSE /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/dangerous.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/package.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/safer.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/node_modules/safer-buffer/tests.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpass-empty.sh /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpass.sh /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpassMain.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/askpass/askpassManager.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/avatarManager.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/commands.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/config.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/dataSource.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/diffDocProvider.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/extension.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/extensionState.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/gitGraphView.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/data/life-cycle.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/data/lock.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/startup.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/uninstall.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/life-cycle/utils.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/logger.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/repoFileWatcher.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/repoManager.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/statusBarItem.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/types.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils/bufferedQueue.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils/disposable.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/out/utils/event.js /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/package.json /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/cmd-icon-dark.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/cmd-icon-light.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/icon.png /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/webview-icon-dark.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/webview-icon-light.svg /root/.vscode-server/extensions/mhutchie.git-graph-1.30.0/resources/webview-icon.svg
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
