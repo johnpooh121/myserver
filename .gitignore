@@ -15,3 +15,4 @@ node_modules
 .vscode-server/data/logs/20220109T050849/exthost2/exthost.log
 .vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/1-GitHub Pull Request.log
 .vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/4-Git.log
+.vscode-server/data/logs/20220109T050849/exthost2/output_logging_20220109T073116/3-Git Graph.log
