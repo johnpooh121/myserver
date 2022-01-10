@@ -1,0 +1,27 @@
+use admin
+quit
+help
+use mynodejs
+db
+npm install mongoose
+db
+show dbs
+db.createCollection('users')
+show collections
+db.users.save({name:'pooh',win:0,lose:0});
+ext
+db
+test.users.save({name:'junseo',win:10,lose:1});
+db.users.save({name:'junseo',win :10,lose:0});
+db
+db.users.find({name:'also'})
+db.users.find({name:'also'})
+db.users.find({name:'junseo'})
+db.users.find({'name':'junseo'})
+db.users.find()
+db.users.find()
+db.find()
+db.users.find()
+db.users.find()
+db.users.find()
+db.users.find( )

@@ -148,3 +148,65 @@ node gameserver.js
 node gam
 node gameserver.js 
 git
+git push
+git status
+git remote -v
+git status
+cat .gitignore 
+ls
+git rm -r --cached node_modules/
+git status
+git add .
+git commit -m "fix: remove node_modules"
+git push 
+node gameserver.js 
+ps
+kill -9 31405
+node gameserver.js 
+yarn -v
+node -v
+npm -v
+wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+lsb_release -dc
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo systemctl start mongod
+sudo systemctl status mongod
+mongo
+npm install mongoose
+mongoose -v
+mongodb
+mongo
+node dbtest.js 
+mongo
+node dbtest.js 
+mongo
+node dbtest.js 
+mongo
+node dbtest.js 
+mongo
+node dbtest.js 
+node gameserver.js 
+ps
+kill -9 27112
+node gameserver.js &
+ps
+node dbtest.js
+node dbtest.js 
+ps
+mongo
+ps
+node dbtest.js 
+mongo
+node dbtest.js 
+ps
+node dbtest.js 
+mongo
+node dbtest.js 
+mongo
+node dbtest.js 
+mongo
+ps
+kill -9 27493
+ps
