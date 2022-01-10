@@ -30,11 +30,12 @@ let rcnt=[],p1name=[],p2name=[],readycnt=[],pname_bysid=[],isroomover=[],isroomo
 io.sockets.on('connection', (socket) => {
   console.log(`Socket connected : ${socket.id}`)
   let myroomnumber,myusername;
-
+    let isrefused,isranking;
   socket.on('getmystatus',(data)=>{
     const receivedata = JSON.parse(data);
     const username = receivedata.username;
     let detail="",win,lose
+    isranking =false
     User.findOne({ 'name': username }, function (err, person) {
           if (err) return handleError(err);
           if(person==null){
@@ -58,6 +59,7 @@ io.sockets.on('connection', (socket) => {
   socket.on('getranking',(data)=>{
     const receivedata = JSON.parse(data);
     const username = receivedata.username;
+    isranking=true
     User.find({},(err,docs)=>{
       if(err)return handleError(err);
       const msg={
@@ -75,18 +77,19 @@ io.sockets.on('connection', (socket) => {
     const username = roomData.username
     const roomnumber = roomData.roomnumber
     myroomnumber = roomnumber
+    myusername = username
     pname_bysid[socket.id]=username
-
+    isranking=false
     if(isroomoccupied[roomnumber]==true){
       const msg1 = {
         username : username
       }
+      isrefused=true
       io.emit('refuse',JSON.stringify(msg1))
       console.log(`refuse ${username}`)
       return;
     }
-    
-    if(rcnt[roomnumber]!=undefined&&rcnt[roomnumber]==2)return;
+    isrefused=false;
     socket.join(`${roomnumber}`)
     console.log(`[Username : ${username}] entered [room number : ${roomnumber}]`)
     if(rcnt[roomnumber]==undefined||rcnt[roomnumber]==0){
@@ -125,6 +128,7 @@ io.sockets.on('connection', (socket) => {
     if(readycnt[roomnumber]>1){
         readycnt[roomnumber]=0;
         console.log(`all ready`);
+        isroomover[roomnumber]=false;//시작
         const msg = {
             username: p1name[roomnumber],
             content: p2name[roomnumber],
@@ -188,9 +192,14 @@ io.sockets.on('connection', (socket) => {
 
   socket.on('disconnect', () => {
     console.log(`Socket disconnected : ${socket.id}`)
-    if(isroomoccupied[myroomnumber]===true)return;
+    if(isrefused===true)return;
+    if(isranking===true)return;
     socket.leave(`${myroomnumber}`)
     rcnt[myroomnumber]--;
+    if(rcnt[myroomnumber]<=0){
+        rcnt[myroomnumber]=0;
+        isroomoccupied[myroomnumber]=false;
+    }
     if(isroomover[myroomnumber])return;
     isroomover[myroomnumber]=true
     const endmsg={
@@ -206,12 +215,11 @@ io.sockets.on('connection', (socket) => {
       winner=p1name[myroomnumber]
       loser = p2name[myroomnumber]
     }
+    handlegameover(winner,loser);
     console.log(`unexpected disconnection : ${winner} wins, ${loser} loses`)
     // TODO
-    if(rcnt[myroomnumber]<=0){
-      rcnt[myroomnumber]=0;
-      isroomoccupied[myroomnumber]=false;
-    }
+    console.log(`rcnt : ${rcnt[myroomnumber]}`);
+    
   })
 })
 
